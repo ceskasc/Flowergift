@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#120817" />
+  <meta name="description" content="Özür dilemek için hazırlanmış interaktif bir çiçek buketi." />
+  <title>Özür Dilerim, Yasin 🌷</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="aurora"></div>
+  <div class="stars" aria-hidden="true"></div>
+  <main class="scene">
+    <section class="card" id="card">
+      <div class="eyebrow">SANA SÖYLEMEK İSTEDİĞİM BİR ŞEY VAR</div>
+      <h1>Özür dilerim,<br><span>Yasin.</span></h1>
+      <p class="lead">Bazen birkaç kelime yetmez. O yüzden sana kelimeler yerine bir buket hazırladım.</p>
+
+      <div class="bouquet-stage" id="bouquet" role="button" tabindex="0" aria-label="Buketi açmak için dokun">
+        <div class="halo"></div>
+        <div class="bouquet-glow"></div>
+        <div class="stem stem-a"></div><div class="stem stem-b"></div><div class="stem stem-c"></div><div class="stem stem-d"></div><div class="stem stem-e"></div>
+        <div class="leaf leaf-a"></div><div class="leaf leaf-b"></div><div class="leaf leaf-c"></div><div class="leaf leaf-d"></div>
+        <div class="flower rose rose-a"><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="flower rose rose-b"><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="flower rose rose-c"><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="flower tulip tulip-a"><i></i><i></i><b></b></div>
+        <div class="flower tulip tulip-b"><i></i><i></i><b></b></div>
+        <div class="flower daisy daisy-a"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="flower daisy daisy-b"><i></i><i></i><i></i><i></i><i></i><i></i><b></b></div>
+        <div class="wrap"></div>
+        <div class="ribbon"></div>
+        <div class="floating-petal p1">✦</div><div class="floating-petal p2">✦</div><div class="floating-petal p3">♥</div>
+      </div>
+
+      <button class="open-btn" id="openBtn">Buketimi aç <span>✦</span></button>
+      <div class="hint">Dokun, sürükle, buketi keşfet.</div>
+    </section>
+
+    <section class="letter" id="letter" aria-hidden="true">
+      <div class="letter-inner">
+        <div class="tiny-flower">✿</div>
+        <div class="eyebrow">KALBİMDEN</div>
+        <h2>Bir özürden<br><em>daha fazlası.</em></h2>
+        <p>Yaptığım şeyin seni kırdığını biliyorum. Haklı çıkmaya çalışmak yerine, seni gerçekten dinlemek ve hislerini anlamak istiyorum.</p>
+        <p>Bu buketteki her çiçek, “keşke” dediğim bir anı temsil ediyor. Keşke seni üzmeseydim. Keşke bazı şeyleri daha önce fark etseydim.</p>
+        <p class="promise">Sana verebileceğim en güzel şey kusursuz bir söz değil; bundan sonra daha dikkatli olmak için göstereceğim çaba.</p>
+        <div class="signature">Özür dilerim.<br><span>Gerçekten.</span> 🤍</div>
+        <button class="close-btn" id="closeBtn">Bukete dön</button>
+      </div>
+    </section>
+  </main>
+  <div class="toast" id="toast">Bir dilek tuttum… ✨</div>
+  <script src="script.js"></script>
+</body>
+</html>
